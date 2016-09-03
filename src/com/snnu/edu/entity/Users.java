@@ -86,7 +86,7 @@ public class Users {
 		this.status = status;
 	}
 	public Users() {
-
+		super();
 	}
 	public Users(String name, String password, String tel, String email,
 			String country, String address, int type, Date birthday, int status) {
@@ -102,8 +102,10 @@ public class Users {
 		this.status = status;
 	}
 	public Users(String name, String password) {
+		super();
 		this.name = name;
 		this.password = password;
 	}
+	
 	
 }
